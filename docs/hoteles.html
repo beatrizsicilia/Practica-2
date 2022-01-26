@@ -5,10 +5,11 @@
 	<title>NUESTROS HOTELES</title>
 </head>
 
+<body>
 <h1> ¿QUIERES CONOCER TODOS NUESTROS HOTELES? </h1>
 
 <form action="/hoteles" method="post">
-    Ciudad: <select name="ciudad">
+    Ciudad: <select name="ciudad" id="ciudad">
         <option value="value1">Madrid</option>
         <option value="value2" selected>Barcelona</option>
         <option value="value3">Nueva York</option>
@@ -17,12 +18,11 @@
     </select>
   </form>
 
-if (value=="value1")
+var nombrehotel = document.getElementById("ciudad")
+if(nombrehotel=="value1")
 {
-    <img src="https://foto.hrsstatic.com/fotos/0/3/1090/700/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2F0%2F1%2F0%2F8%2F010857%2F010857_a_27877202.jpg/IZXHSPLca2mFhnqdp5xiPA%3D%3D/1171,1499/6/Melia_Madrid_Princesa-Madrid-Aussenansicht-2-10857.jpg">;
+    <p>madrid princesa</p>
 }
-else 
-{
-    <img src="https://www.dogmagestion.com/wp-content/uploads/2019/03/Dogma-Melia-Hotel-Internacional-Resort-Worldwide-Protagonista-Negocios-B2B-670x360.jpg">;
 
-}
+</body>
+</html>
