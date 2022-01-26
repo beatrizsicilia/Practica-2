@@ -7,22 +7,31 @@
 
 <body>
 <h1> ¿QUIERES CONOCER TODOS NUESTROS HOTELES? </h1>
-
-<form action="/hoteles" method="post">
-    Ciudad: <select name="ciudad" id="ciudad">
-        <option value="value1">Madrid</option>
-        <option value="value2" selected>Barcelona</option>
-        <option value="value3">Nueva York</option>
-        <option value="value3">Londres</option>
-        <option value="value3">Paris</option>
-    </select>
-</form>
-
-<var>nombrehotel = document.getElementById("ciudad")</var> 
-if(nombrehotel=="value1")
-{
-    <p>madrid princesa</p>
-}
-
+<table>
+	<thead>
+		<tr>
+			<th>Habitación simple</th>
+			<th>Habitación doble</th>
+			<th>Junior suite</th>
+            <th>Master suite</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Valor 2</td>
+			<td>Columna 2</td>
+		</tr>
+		<tr>
+			<td>Valor 1</td>
+			<td>Valor 2</td>
+			<td>Columna 2</td>
+		</tr>
+		<tr>
+			<td>Valor 1</td>
+			<td>Valor 2</td>
+			<td>Columna 2</td>
+		</tr>
+	</tbody>
+</table>
 </body>
 </html>
