@@ -8,7 +8,7 @@
 
 <h1> PORTAL CLIENTES</h1>
 
-<h2>REGÍSTRESE</h2>
+<h2>CREAR UNA CUENTA</h2>
 
 <form action="/registro" method="get">
     <p>Nombre: <input type="text" name="nombre" size="40"></p>
@@ -31,11 +31,33 @@
 
 
   <hr />
-  <h2>SI YA TIENE CUENTA INICIE SESIÓN</h2>
+  <h2>INICIAR SESIÓN</h2>
   <form action="/login" method="post">
-      <input type="text" name="user">
-      <input type="password" name="password">
+      Usuario<input type="text" name="user">
+      Password<input type="password" name="password">
       <button type="submit">Login</button>
+  </form>
+  
+  <hr />
+
+  <hr />
+  <h2>ACCIONES</h2>
+  <h3>HACER UNA RESERVA </h3>
+  <form action="/reserva" method="post">
+    <select name="ciudad">
+        <option value="value1">Madrid</option>
+        <option value="value2" selected>Barcelona</option>
+        <option value="value3">Nueva York</option>
+        <option value="value3">Londres</option>
+        <option value="value3">Paris</option>
+    </select>
+    <p>Fecha de entrada: <input type="date" name="entrada" min="2022-01-27"></p>
+    <p>Fecha de salida: <input type="date" name="salida" min="2022-01-27"></p>
+    <p>Precio máximo por noche : <input type="range" name="pmax"></p>
+    <p>Número de personas: <input type="number" name="personas" min="1" max="10" step="1"/></p>
+    <p>Usuario<input type="text" name="user"></p>
+    <p>Password<input type="password" name="password"></p>
+    <p><button type="submit">Login</button></p>
   </form>
   
   <hr />
