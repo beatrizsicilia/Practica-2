@@ -42,7 +42,7 @@
 
   
   <hr />
-  <h3> -> HACER UNA RESERVA </h3>
+  <h3>HACER UNA RESERVA </h3>
   <form action="/reserva" method="post">
     Ciudad: <select name="ciudad">
         <option value="value1">Madrid</option>
@@ -51,8 +51,9 @@
         <option value="value3">Londres</option>
         <option value="value3">Paris</option>
     </select>
-    <p>Fecha de entrada: <input type="date" name="entrada" min="2022-01-27"></p>
-    <p>Fecha de salida: <input type="date" name="salida" min="2022-01-27"></p>
+    <p>Fecha de entrada: <input type="date" name="entrada" min="2022-01-27">
+    Fecha de salida: <input type="date" name="salida" min="2022-01-27">
+    </p>
     <p>Precio máximo por noche : <input type="range" name="pmax"></p>
     <p>Número de personas: <input type="number" name="personas" min="1" max="10" step="1"/></p>
     <p>Usuario<input type="text" name="user"></p>
