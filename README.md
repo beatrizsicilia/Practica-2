@@ -9,3 +9,5 @@ En esta práctica he hecho una página web sobre la compañía Meliá Hotels, cu
 - Hoteles: en esta pestaña hay una tabla con información sobre las disitintas tarifas de los hoteles. 
   
 - About: por último, en esta pestaña encontraremos información referente a la empresa. (Slogan, vídeo presentación). 
+
+- Existen links a las redes sociales de la empresa y el logo que al pulsarlo lleva al inicio. 
